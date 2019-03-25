@@ -1,0 +1,22 @@
+{
+    "name": "digipolisgent/update-checker",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Jelle Sebreghts",
+            "email": "sebreghts.jelle@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DigipolisGent\\UpdateChecker\\": "src"
+        }
+    },
+    "require": {
+        "composer/semver": "^1.4",
+        "knplabs/packagist-api": "^1.5",
+        "t4web/composer-lock-parser": "^1.1",
+        "composer/composer": "^1.8",
+        "sensiolabs/security-checker": "^5.0"
+    }
+}
