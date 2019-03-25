@@ -121,6 +121,9 @@ class UpdateChecker
         $platformOverrides = $this->composer->getConfig()->get('platform') ?: array();
         $platformRepo = new PlatformRepository(array(), $platformOverrides);
         $candidate = $versionSelector->findBestCandidate($name, $targetVersion, $platformRepo->findPackage('php', '*')->getVersion(), $bestStability);
+        if (!$candidate) {
+            return false;
+        }
         if ($updateType === static::UPDATETYPE_MAJOR) {
             return $this->isMajorUpdate($candidate, $package) ? $candidate : false;
         }
