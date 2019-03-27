@@ -1,6 +1,6 @@
 <?php
 
-use DigipolisGent\UpdateChecker\Factory;
+use JelleS\UpdateChecker\Factory;
 use SensioLabs\Security\SecurityChecker;
 
 require __DIR__ . '/../vendor/autoload.php';

@@ -1,6 +1,6 @@
 <?php
 
-namespace DigipolisGent\UpdateChecker;
+namespace JelleS\UpdateChecker;
 
 use Composer\DependencyResolver\Pool;
 use Composer\Factory as ComposerFactory;

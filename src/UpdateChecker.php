@@ -1,6 +1,6 @@
 <?php
 
-namespace DigipolisGent\UpdateChecker;
+namespace JelleS\UpdateChecker;
 
 use Composer\Composer;
 use Composer\DependencyResolver\Pool;
@@ -79,7 +79,7 @@ class UpdateChecker
     }
 
     /**
-     * @return \DigipolisGent\UpdateChecker\PackageReport[]
+     * @return \JelleS\UpdateChecker\PackageReport[]
      */
     public function getReport()
     {

@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "DigipolisGent\\UpdateChecker\\": "src"
+            "JelleS\\UpdateChecker\\": "src"
         }
     },
     "require": {
