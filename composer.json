@@ -1,6 +1,7 @@
 {
     "name": "jelle-s/update-checker",
-    "type": "project",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jelle Sebreghts",
