@@ -3,7 +3,7 @@
 use DigipolisGent\UpdateChecker\Factory;
 use SensioLabs\Security\SecurityChecker;
 
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 // Add some directories with composer-based projects.
 $dirs = [];
