@@ -10,7 +10,7 @@ use Composer\Repository\CompositeRepository;
 
 class Factory
 {
-    public function create($path, IOInterface $io = null) {
+    public static function create($path, IOInterface $io = null) {
         if (!$io) {
              $io = new NullIO();
         }

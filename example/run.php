@@ -8,8 +8,7 @@ require __DIR__ . '/../vendor/autoload.php';
 // Add some directories with composer-based projects.
 $dirs = [];
 foreach ($dirs as $dir) {
-  $factory = new Factory();
-  $updateChecker = $factory->create($dir);
+  $updateChecker = Factory::create($dir);
 
   $securityChecker = new SecurityChecker();
   $result = $securityChecker->check($dir, 'json');
