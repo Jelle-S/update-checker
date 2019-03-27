@@ -1,5 +1,5 @@
 {
-    "name": "digipolisgent/update-checker",
+    "name": "jelle-s/update-checker",
     "type": "project",
     "authors": [
         {
@@ -13,7 +13,6 @@
         }
     },
     "require": {
-        "composer/semver": "^1.4",
         "knplabs/packagist-api": "^1.5",
         "t4web/composer-lock-parser": "^1.1",
         "composer/composer": "^1.8",
